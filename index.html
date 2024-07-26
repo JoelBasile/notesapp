@@ -1,30 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ExamBank</title>
 
     <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
-    <link rel="stylesheet" href="main.css">
-    
-</head>
+    <link rel="stylesheet" href="src/index.css">
+  </head>
 
 
-<body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
     <header>
-        
-        <nav>
-            <img src="images/logo.png" class="logo1">
-            <h1>ExamBank</h1>
-            <img src="images/profile-circle.svg" class="profile">
-        </nav>
-
-        <main>
-            <h2>Find Exams</h2>
-            <input type="text" placeholder="Search...">
-        </main>
+        <img src="src/assets/logo.png" class="logo1">
+        <h1>ExamBank</h1>
+        <img src="src/assets/profile-circle.svg" class="profile">
     </header>
-</body>
+
+    <main>
+        <h2>Find Exams</h2>
+        <input type="text" placeholder="Search...">
+    </main>
+
+  </body>
 
 </html>
